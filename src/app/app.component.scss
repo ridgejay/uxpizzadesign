@@ -1,0 +1,68 @@
+.navbar-brand {
+  font-family: 'Shadows Into Light', cursive;
+  opacity: 0.7;
+  font-size: 35px; 
+}
+
+b {
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Russo One', sans-serif;
+    color: rgba(225, 225, 225, .1);
+    text-align: center;
+    background-image: url('../assets/images/fire.jpg');
+    background-position: center;
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate 15s linear infinite;
+}
+
+@keyframes  animate {
+
+       0%{
+            background-position: right 0px top 5px;
+        }
+        40%{
+            background-position: right ;
+          }  
+        
+        }
+
+.py-5 {
+  background-image: url(../assets/images/smoke.jpg);
+  background-position: top;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 35px;
+  
+}
+
+h4 {
+  text-decoration: none;
+    font-size: 35px;
+    font-family: 'Russo One', sans-serif;
+    color: rgba(225, 225, 225, .1);
+    text-align: center;
+    background-image: url('../assets/images/fire.jpg');
+    background-position: center;
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate 15s linear infinite;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+  color: white;
+}
+
+.fas{
+color: red;
+font-size: 20px;
+}
+
+.row {
+  background-image: url(../assets/images/smoke.jpg);
+  background-size: cover;
+}
